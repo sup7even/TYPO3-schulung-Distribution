@@ -1,0 +1,15 @@
+// Add Content Element to the NCEW (new content element wizard)
+mod.wizards.newContentElement.wizardItems.common {
+	elements {
+		theme_jumbotron {
+			iconIdentifier  = content-header
+			title = Jumbotron
+			description = Add a main header with text into the jumbotron section.
+			tt_content_defValues {
+				CType = theme_jumbotron
+				header = Seitenüberschrift bitte ausfüllen
+			}
+		}
+	}
+	show := addToList(theme_jumbotron)
+}

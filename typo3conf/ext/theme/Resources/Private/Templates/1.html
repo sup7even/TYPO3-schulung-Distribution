@@ -1,0 +1,38 @@
+<html data-namespace-typo3-fluid="true"
+	  xmlns:f="http://xsd.helhum.io/ns/typo3/cms-fluid/master/ViewHelpers"
+	  xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers">
+
+
+<f:render partial="MainNav" arguments="{_all}" />
+
+<f:cObject typoscriptObjectPath="lib.sujet" />
+
+<div class="container" role="main">
+
+	<div class="row mb30">
+
+		<div class="col-md-8">
+			<h1>{data.title}</h1>
+			<f:cObject typoscriptObjectPath="lib.content.main" />
+			<f:link.page section="top">&#x2191; Nach oben</f:link.page>
+		</div>
+
+		<div class="col-md-3 col-md-offset-1">
+			<f:if condition="{f:cObject(typoscriptObjectPath: 'lib.subNav')}">
+				<f:then>
+					<div class="panel panel-default">
+						<ul class="nav nav-pills nav-stacked">
+							{f:cObject(typoscriptObjectPath: 'lib.subNav')}
+						</ul>
+					</div>
+				</f:then>
+			</f:if>
+			<f:cObject typoscriptObjectPath="lib.content.sidebar" />
+		</div>
+	</div>
+
+</div>
+
+<f:render partial="Footer" arguments="{_all}" />
+
+</html>

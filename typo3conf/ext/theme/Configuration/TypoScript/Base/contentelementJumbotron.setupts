@@ -1,0 +1,6 @@
+tt_content {
+	theme_jumbotron =< lib.fluidContent
+	theme_jumbotron {
+		templateName = Jumbotron
+	}
+}

@@ -1,0 +1,11 @@
+lib.fluidContent {
+	templateRootPaths {
+		200 = EXT:theme/Resources/Private/Templates/Content/
+	}
+	partialRootPaths {
+		200 = EXT:theme/Resources/Private/Partials/Content/
+	}
+	layoutRootPaths {
+		200 = EXT:theme/Resources/Private/Layouts/Content/
+	}
+}

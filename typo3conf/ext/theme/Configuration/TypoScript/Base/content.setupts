@@ -1,0 +1,30 @@
+lib.content {
+	grid1of3 = CONTENT
+	grid1of3 {
+		table = tt_content
+		select {
+			where = colPos=11
+			orderBy = sorting
+		}
+	}
+	grid2of3 < .grid1of3
+	grid2of3.select.where = colPos=12
+	grid3of3 < .grid1of3
+	grid3of3.select.where = colPos=13
+
+	footer < .grid1of3
+	footer.select {
+		where = colPos=5
+		pidInList = 1
+	}
+
+	jumbotron < .grid1of3
+	jumbotron.select.where = colPos=10
+
+	main < .grid1of3
+	main.select.where = colPos=0
+
+	sidebar < .grid1of3
+	sidebar.select.where = colPos=1
+	sidebar.slide = -1
+}
