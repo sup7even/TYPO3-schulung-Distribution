@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<xliff version="1.0">
+	<file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2016-01-25T01:35:12Z" product-name="filelist">
+		<header/>
+		<body>
+			<trans-unit id="flashmessage.no_results">
+				<source>No results found</source>
+				<target/>
+				<alt-trans xml:space="preserve" origin="kludikovsky">
+					<target>Keine Ergebnisse gefunden</target>
+				</alt-trans>
+			</trans-unit>
+			<trans-unit id="search">
+				<source>Search</source>
+				<target/>
+				<alt-trans xml:space="preserve" origin="kludikovsky">
+					<target>Suche</target>
+				</alt-trans>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<xliff version="1.0">
+	<file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2016-01-25T01:02:22Z" product-name="css_styled_content">
+		<header/>
+		<body>
+			<trans-unit id="css_styled_content.config.loadContentElementWizardTsConfig">
+				<source>Load Page TSconfig with "New Content Element Wizard" definitions. The definitions can also be loaded manually by including it in a page.</source>
+				<target/>
+				<alt-trans xml:space="preserve" origin="kludikovsky">
+					<target>Lade die Seiten TSconfig mit den "Neuen Inhaltselementen Wizard" Definitionen. Die Definitionen können auch manuell durch Einstellungen auf der Seite geladen werden.</target>
+				</alt-trans>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
